@@ -7,12 +7,12 @@ const accessToken = "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";
 const username = "user5148";
 const repository = "ul";
 
-const button = document.getElementById("getlocation");
-button.addEventListener("click", getlocation);
+const button = document.getElementById("getLocation");
+button.addEventListener("click", getLocation);
 
 function getLocation() {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(showPosition);
+  if (navigator.geoLocation) {
+    navigator.geoLocation.getCurrentPosition(showPosition);
   } else {
     console.log("Geolocation is not supported by this browser.");
   }

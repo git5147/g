@@ -7,8 +7,8 @@ const accessToken = "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";
 const username = "user5148";
 const repository = "ul";
 
-const button = document.getElementById("getLocationButton");
-button.addEventListener("click", getLocation);
+const button = document.getElementById("getlocation");
+button.addEventListener("click", getlocation);
 
 function getLocation() {
   if (navigator.geolocation) {

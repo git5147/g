@@ -1,5 +1,22 @@
-#location-coordinates {
-  text-align: center;
+body {
+  font-family: sans-serif;
+}
+
+#getLocationButton {
   font-size: 18px;
-  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0074D9;
+  color: white;
+  cursor: pointer;
+}
+
+#getLocationButton:hover {
+  background-color: #005CC5;
+}
+
+#location {
+  margin-top: 20px;
+  font-size: 16px;
 }

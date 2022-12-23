@@ -1,6 +1,6 @@
 // Set the access token and API endpoint for the GitHub API
-var accessToken = 'YOUR_ACCESS_TOKEN';
-var apiEndpoint = 'https://api.github.com/repos/YOUR_USERNAME/YOUR_REPO/contents/';
+var accessToken = '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';
+var apiEndpoint = 'https://api.github.com/repos/user5148/ul/contents/';
 
 // Get the user's location when the button is clicked
 document.getElementById('button').addEventListener('click', function () {
